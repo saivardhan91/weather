@@ -1,3 +1,4 @@
+document.addEventListener('DOMContentLoaded', () => {
 let img1=document.querySelector(".weather-details img");
 let btn=document.querySelector("button");
 btn.addEventListener("click", async ()=>{
@@ -59,3 +60,4 @@ btn.addEventListener("click", async ()=>{
         img1.src= "clear.jpg";
     }
 });
+}
